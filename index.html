@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professor Ibroxim Xabibullayev | Rasmiy Ilmiy-Pedagogik Portfeli</title>
+  <meta name="description" content="Professor Ibroxim Xabibullayev - Texnika fanlari doktori, Professor, TGFU professori. Ilmiy faoliyat, darsliklar, monografiyalar va patentlar.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Full-Page Continuous Scientific Background (Unified across all sections) -->
+  <canvas id="globalScienceCanvas" class="global-science-canvas"></canvas>
+
+  <!-- Ambient Light Wash -->
+  <div class="bg-glow-container">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <div class="nav-wrap">
+        <a href="#hero" class="logo-brand">
+          <div class="logo-text">
+            <h1 data-i18n="profName">Prof. I. Xabibullayev</h1>
+            <span data-i18n="profTitleShort">Texnika fanlari doktori, Professor</span>
+          </div>
+        </a>
+
+        <ul class="nav-links">
+          <li class="nav-item"><a href="#hero" class="active" data-i18n="navHome">Asosiy</a></li>
+          <li class="nav-item"><a href="#biography" data-i18n="navBio">Biografiya</a></li>
+          <li class="nav-item"><a href="#school" data-i18n="navSchool">Ilmiy Maktab</a></li>
+          <li class="nav-item"><a href="#diplomas" data-i18n="navDiplomas">Diplomlar</a></li>
+          <li class="nav-item"><a href="#textbooks" data-i18n="navTextbooks">Darsliklar</a></li>
+          <li class="nav-item"><a href="#patents" data-i18n="navPatents">Patentlar</a></li>
+          <li class="nav-item"><a href="#publications" data-i18n="navArticles">Maqolalar</a></li>
+          <li class="nav-item"><a href="#works-registry" data-i18n="navWorks">Ilmiy Ishlar</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <!-- Language Selector -->
+          <div class="lang-selector">
+            <button class="lang-btn" id="langBtn" aria-label="Tilni tanlash">
+              <span id="currentLangLabel">O‘Z</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="lang-menu" id="langMenu">
+              <button class="lang-option active" data-lang="uz">O‘zbekcha</button>
+              <button class="lang-option" data-lang="ru">Русский</button>
+              <button class="lang-option" data-lang="en">English</button>
+            </div>
+          </div>
+
+          <!-- Theme Toggle -->
+          <button class="btn-icon" id="themeToggle" aria-label="Mavzuni o‘zgartirish" title="Tun / Kun">
+            <svg id="themeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-wrap">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L1 7l11 5 9-4.09V17h2V7L12 2z"/>
+            </svg>
+            <span data-i18n="heroBadge">Texnika Fanlari Doktori, Professor</span>
+          </div>
+
+          <h1 class="hero-title" data-i18n="heroName">Ibroxim Xabibullayev</h1>
+          <p class="hero-subtitle" data-i18n="heroSubtitle">Toshkent Gumanitar Fanlar Universiteti Professori</p>
+          
+          <p class="hero-desc" data-i18n="heroDesc">
+            Gidrogeologik jarayonlarni matematik modellashtirish, Ekonometrika va Statistika sohalaridagi 50 yillik tajribaga ega yetakchi olim. 250 dan ortiq ilmiy ishlar, 4 ta monografiya, 30 dan ortiq darslik va o‘quv qo‘llanmalar hamda 15 dan ortiq mualliflik patentlari sohibi.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#textbooks" class="btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+              <span data-i18n="btnBooks">Darsliklar va Nashrlar</span>
+            </a>
+            
+            <a href="#works-registry" class="btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+              <span data-i18n="btnWorksList">Ilmiy Ishlar Ro‘yxati</span>
+            </a>
+
+            <button class="btn-secondary" onclick="window.print()">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect width="12" height="8" x="6" y="14"/></svg>
+              <span data-i18n="btnPrintCv">Portfolioni Chop Etish / PDF</span>
+            </button>
+          </div>
+
+          <!-- Stats Banner -->
+          <div class="stats-banner">
+            <div class="stat-box">
+              <div class="stat-number">50+</div>
+              <div class="stat-label" data-i18n="statExp">Yillik Ilmiy Tajriba</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">250+</div>
+              <div class="stat-label" data-i18n="statWorks">Ilmiy Nashrlar</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">30+</div>
+              <div class="stat-label" data-i18n="statBooks">Darslik & Qo‘llanma</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">15+</div>
+              <div class="stat-label" data-i18n="statPatents">DGU Patentlar</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="professor-card-frame" onclick="openDocModal('Professor Ibroxim Xabibullayev — TGFU', 'web_assets/habibullayev_poster_full.jpg', 'web_assets/habibullayev_poster_full.jpg')" style="cursor: pointer;" title="To‘liq rasmni ko‘rish uchun bosing">
+            <div class="professor-card-inner">
+              <div class="professor-img-wrap">
+                <img src="web_assets/professor_scene_natural.jpg" alt="Professor Ibroxim Xabibullayev" class="professor-img" id="profAvatar">
+              </div>
+              <div class="professor-card-info">
+                <h3 class="prof-name-card">Prof. I. Xabibullayev</h3>
+                <p class="prof-role-card" data-i18n="profRoleTag">Texnika fanlari doktori, Professor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Biography & Career Timeline Section -->
+  <section class="section" id="biography" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="bioTag">Tarjimai Hol</span>
+        <h2 class="section-title" data-i18n="bioTitle">Ilmiy va Pedagogik Faoliyat Yo‘li</h2>
+        <p class="section-subtitle" data-i18n="bioSubtitle">Oliy ta‘lim, fundamental ilm-fan va kadrlar tayyorlashga bag‘ishlangan boy hayot yo‘li</p>
+      </div>
+
+      <div class="timeline-wrap" id="timelineContainer">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Scientific School & Mentorship Section -->
+  <section class="section" id="school">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="schoolTag">Ilmiy Maktab</span>
+        <h2 class="section-title" data-i18n="schoolTitle">Ilmiy Kengash, Shogirdlar va Yo‘nalishlar</h2>
+        <p class="section-subtitle" data-i18n="schoolSubtitle">Ekonometrik modellashtirish va hisoblash usullari bo‘yicha ilmiy salohiyat</p>
+      </div>
+
+      <div class="school-grid">
+        <div class="school-card">
+          <div class="school-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 data-i18n="schoolSupervisionTitle">Ilmiy Rahbarlik va Shogirdlar</h3>
+          <p data-i18n="schoolSupervisionText">Professor I. Xabibullayev rahbarligida 2 ta nomzodlik (PhD) va 2 ta fan doktori (DSc) dissertatsiyalari muvaffaqiyatli himoya qilingan.</p>
+          <ul>
+            <li data-i18n="schoolItem1">Fan doktori ilmiy darajalar beruvchi Ilmiy Kengash a‘zosi</li>
+            <li data-i18n="schoolItem2">Kengash qoshidagi Ilmiy seminar raisi</li>
+            <li data-i18n="schoolItem3">Universitet Kengashi a‘zosi va ekspert maslahatchi</li>
+          </ul>
+        </div>
+
+        <div class="school-card">
+          <div class="school-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h3 data-i18n="schoolDirectionsTitle">Asosiy Ilmiy-Tadqiqot Yo‘nalishlari</h3>
+          <p data-i18n="schoolDirectionsText">Nazariy matematik modellar va amaliy iqtisodiy-ekologik jarayonlarni o‘rganish:</p>
+          <ul>
+            <li data-i18n="schoolDir1">Gidrogeologik va murakkab tabiiy jarayonlarni matematik modellashtirish</li>
+            <li data-i18n="schoolDir2">Iqtisodiyot va biznesda ekonometrik modellashtirish hamda prognozlash</li>
+            <li data-i18n="schoolDir3">Qishloq xo‘jaligi, suv resurslari va kambag‘allikni qisqartirish tahlili</li>
+            <li data-i18n="schoolDir4">Raqamli iqtisodiyotda amaliy statistika va tahliliy dasturiy majmualar</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Diplomas & Official Credentials Section -->
+  <section class="section" id="diplomas" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="diplomaTag">Rasmiy Hujjatlar</span>
+        <h2 class="section-title" data-i18n="diplomaTitle">Diplomlar va Ilmiy Unvon Guvohnomalari</h2>
+        <p class="section-subtitle" data-i18n="diplomaSubtitle">Doktorlik, nomzodlik, professorlik va universitet diplomlari nusxalari</p>
+      </div>
+
+      <div class="diploms-grid" id="diplomasGrid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Textbooks & Methodological Publications Section -->
+  <section class="section" id="textbooks">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="booksTag">O‘quv Adabiyotlari</span>
+        <h2 class="section-title" data-i18n="booksTitle">Darsliklar, Praktikumlar va Qo‘llanmalar</h2>
+        <p class="section-subtitle" data-i18n="booksSubtitle">Statistika, Ekonometrika va tahlil fanlaridan talabalar va magistrantlar uchun yaratilgan asarlar</p>
+      </div>
+
+      <div class="search-box-wrap">
+        <svg class="search-icon-pos" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" id="textbookSearch" class="search-input" placeholder="Darslik yoki qo‘llanma nomini qidiring...">
+      </div>
+
+      <div class="filter-bar" id="textbookFilterBar">
+        <button class="filter-btn active" data-filter="all" data-i18n="filterAll">Barchasi</button>
+        <button class="filter-btn" data-filter="Darslik" data-i18n="filterDarslik">Darsliklar</button>
+        <button class="filter-btn" data-filter="Praktikum" data-i18n="filterPraktikum">Praktikumlar</button>
+        <button class="filter-btn" data-filter="Qo‘llanma" data-i18n="filterQollanma">O‘quv qo‘llanmalar</button>
+      </div>
+
+      <div class="textbooks-grid" id="textbooksGrid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Patents & Software Copyrights Section -->
+  <section class="section" id="patents" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="patentTag">Intellektual Mulk</span>
+        <h2 class="section-title" data-i18n="patentTitle">Patentlar va Mualliflik Guvohnomalari</h2>
+        <p class="section-subtitle" data-i18n="patentSubtitle">Dasturiy majmualar (DGU), elektron o‘quv qo‘llanmalar va intellektual mulk reyestri</p>
+      </div>
+
+      <div class="patents-grid" id="patentsGrid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Monographs & Featured Articles Section -->
+  <section class="section" id="publications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="pubTag">Monografiya & Maqolalar</span>
+        <h2 class="section-title" data-i18n="pubTitle">Monografiyalar va Nufuzli Xalqaro Nashrlar</h2>
+        <p class="section-subtitle" data-i18n="pubSubtitle">Scopus, Web of Science va nufuzli jurnallarda chop etilgan saralangan maqolalar</p>
+      </div>
+
+      <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 18px; color: var(--accent-blue);" data-i18n="monoHeading">Asosiy Monografiyalar</h3>
+      <div class="school-grid" id="monographsGrid" style="margin-bottom: 45px;">
+        <!-- Rendered via JS -->
+      </div>
+
+      <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 18px; color: var(--accent-blue);" data-i18n="articlesHeading">Saralangan Xalqaro & OAK Maqolalari</h3>
+      <div class="diploms-grid" id="featuredArticlesGrid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Full Scientific Works Registry Table Section -->
+  <section class="section" id="works-registry" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="registryTag">Ilmiy Meros Reyestri</span>
+        <h2 class="section-title" data-i18n="registryTitle">To‘liq Ilmiy Ishlar Ro‘yxati (Forma-2.3)</h2>
+        <p class="section-subtitle" data-i18n="registrySubtitle">Professor I. Xabibullayevning 1976-yildan buyon e‘lon qilingan barcha ilmiy ishlari arxivi</p>
+      </div>
+
+      <div class="works-registry-card">
+        <div class="works-controls">
+          <div class="search-box-wrap" style="margin: 0; max-width: 400px; width: 100%;">
+            <svg class="search-icon-pos" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="text" id="worksSearchInput" class="search-input" placeholder="Ilmiy ish nomi, muallif yoki jurnal...">
+          </div>
+
+          <div class="works-stats-info" id="worksStatsInfo">
+            Jami: <strong id="totalWorksCount">250+</strong> ta ilmiy ish
+          </div>
+        </div>
+
+        <div class="works-table-wrap">
+          <table class="works-table">
+            <thead>
+              <tr>
+                <th style="width: 50px;">№</th>
+                <th data-i18n="thWorkTitle">Ilmiy Ish Nomi</th>
+                <th data-i18n="thWorkPublisher">Nashriyot / Jurnal</th>
+                <th data-i18n="thWorkPages">Hajmi</th>
+                <th data-i18n="thWorkAuthors">Hammualliflar</th>
+              </tr>
+            </thead>
+            <tbody id="worksTableBody">
+              <!-- Rendered via JS -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Pagination Controls -->
+        <div class="pagination-wrap" id="worksPagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Lightbox for Viewing High-res Diplomas & Documents -->
+  <div class="modal-overlay" id="docModal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 id="modalTitle">Hujjat ko‘rinishi</h3>
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Yopish">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-img-wrap">
+          <img id="modalImg" src="" alt="Hujjat">
+        </div>
+        <div style="display: flex; gap: 12px; justify-content: center;">
+          <a id="modalDownloadBtn" href="#" target="_blank" class="btn-primary" download>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span data-i18n="btnDownloadOriginal">Asl Faylni Yuklab Olish (PDF)</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h2>Prof. Ibroxim Xabibullayev</h2>
+          <p data-i18n="footerBio">Texnika fanlari doktori, Professor. Toshkent Gumanitar Fanlar Universiteti "Aniq va gumanitar fanlar" kafedrasi professori.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footerNavTitle">Tezkor Havolalar</h4>
+          <ul>
+            <li><a href="#hero" data-i18n="navHome">Bosh sahifa</a></li>
+            <li><a href="#biography" data-i18n="navBio">Tarjimai hol</a></li>
+            <li><a href="#diplomas" data-i18n="navDiplomas">Diplomlar</a></li>
+            <li><a href="#textbooks" data-i18n="navTextbooks">Darsliklar</a></li>
+            <li><a href="#works-registry" data-i18n="navWorks">Ilmiy ishlar</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footerContactTitle">Faoliyat Manzili</h4>
+          <ul style="color: var(--text-muted); font-size: 0.88rem;">
+            <li>🏛️ Toshkent Gumanitar Fanlar Universiteti</li>
+            <li>📍 Toshkent shahri, O‘zbekiston</li>
+            <li>📚 "Aniq va gumanitar fanlar" kafedrasi</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="currentYear">2026</span> Professor Ibroxim Xabibullayev. Barcha huquqlar himoyalangan.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="prof_data.js"></script>
+  <script src="scientific_works_list.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

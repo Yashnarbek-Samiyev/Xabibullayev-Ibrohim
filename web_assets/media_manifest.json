@@ -1,0 +1,263 @@
+{
+  "diploms": [
+    {
+      "title": "Doktorlik diplomi (nostrifikatsiya)",
+      "fileName": "Doktorlik diplomi (nostrifikatsiya).pdf",
+      "image": "diplomlar/Doktorlik diplomi (nostrifikatsiya).pdf.png"
+    },
+    {
+      "title": "Doktorlik diplomi",
+      "fileName": "Doktorlik diplomi.pdf",
+      "image": "diplomlar/Doktorlik diplomi.pdf.png"
+    },
+    {
+      "title": "Nomzodlik diplomi",
+      "fileName": "Nomzodlik diplomi.pdf",
+      "image": "diplomlar/Nomzodlik diplomi.pdf.png"
+    },
+    {
+      "title": "Professorlik attestati",
+      "fileName": "Professorlik attestati.pdf",
+      "image": "diplomlar/Professorlik attestati.pdf.png"
+    },
+    {
+      "title": "Universitet diplomi",
+      "fileName": "Universitet diplomi.pdf",
+      "image": "diplomlar/Universitet diplomi.pdf.png"
+    }
+  ],
+  "patents": [
+    {
+      "title": "20221925 Гувохнома",
+      "fileName": "20221925 Гувохнома.pdf",
+      "image": "patentlar/20221925 Гувохнома.pdf.png"
+    },
+    {
+      "title": "HayitovaN_20235149",
+      "fileName": "HayitovaN_20235149.pdf",
+      "image": "patentlar/HayitovaN_20235149.pdf.png"
+    },
+    {
+      "title": "Klassifikator DGU",
+      "fileName": "Klassifikator DGU.pdf",
+      "image": "patentlar/Klassifikator DGU.pdf.png"
+    },
+    {
+      "title": "Mualliflik guvohnoma Utanov, Habibullayev",
+      "fileName": "Mualliflik guvohnoma Utanov, Habibullayev.pdf",
+      "image": "patentlar/Mualliflik guvohnoma Utanov, Habibullayev.pdf.png"
+    },
+    {
+      "title": "Suv harakati DGU 29596",
+      "fileName": "Suv harakati DGU 29596.pdf",
+      "image": "patentlar/Suv harakati DGU 29596.pdf.png"
+    },
+    {
+      "title": "mualliflik_guvohnomasi ТАТУ 2022.12",
+      "fileName": "mualliflik_guvohnomasi ТАТУ 2022.12.pdf",
+      "image": "patentlar/mualliflik_guvohnomasi ТАТУ 2022.12.pdf.png"
+    },
+    {
+      "title": "patent o'quv qo'llanma",
+      "fileName": "patent o'quv qo'llanma.pdf",
+      "image": "patentlar/patent o'quv qo'llanma.pdf.png"
+    },
+    {
+      "title": "sertificate_1 ТАТУ",
+      "fileName": "sertificate_1 ТАТУ.pdf",
+      "image": "patentlar/sertificate_1 ТАТУ.pdf.png"
+    },
+    {
+      "title": "Гувохнома муаллифлик Эконометрика2021",
+      "fileName": "Гувохнома муаллифлик Эконометрика2021.pdf",
+      "image": "patentlar/Гувохнома муаллифлик Эконометрика2021.pdf.png"
+    },
+    {
+      "title": "Муаллиф гувохнома Эконометр-2_2023-04-12_10-21-17",
+      "fileName": "Муаллиф гувохнома Эконометр-2_2023-04-12_10-21-17.jpg",
+      "image": "patentlar/Муаллиф гувохнома Эконометр-2_2023-04-12_10-21-17.jpg"
+    },
+    {
+      "title": "Муаллифлик гувохномаси monografiya",
+      "fileName": "Муаллифлик гувохномаси monografiya.jpg",
+      "image": "patentlar/Муаллифлик гувохномаси monografiya.jpg"
+    },
+    {
+      "title": "Муаллифлик гувохномаси дастурга_2023-09-26_19-43-02",
+      "fileName": "Муаллифлик гувохномаси дастурга_2023-09-26_19-43-02.jpg",
+      "image": "patentlar/Муаллифлик гувохномаси дастурга_2023-09-26_19-43-02.jpg"
+    },
+    {
+      "title": "ПАТЕНТ ЭКОНОМU Хабиб, Жумаев 21.05.17",
+      "fileName": "ПАТЕНТ ЭКОНОМU Хабиб, Жумаев 21.05.17.pdf",
+      "image": "patentlar/ПАТЕНТ ЭКОНОМU Хабиб, Жумаев 21.05.17.pdf.png"
+    },
+    {
+      "title": "Утанов, Хабибуллаев, Муминова",
+      "fileName": "Утанов, Хабибуллаев, Муминова.pdf",
+      "image": "patentlar/Утанов, Хабибуллаев, Муминова.pdf.png"
+    },
+    {
+      "title": "Хабибуллаев, Жамолдинова",
+      "fileName": "Хабибуллаев, Жамолдинова.pdf",
+      "image": "patentlar/Хабибуллаев, Жамолдинова.pdf.png"
+    }
+  ],
+  "darsliklar": [
+    {
+      "title": "STATISTIKA darslik",
+      "fileName": " STATISTIKA darslik.pdf",
+      "image": "darsliklar/ STATISTIKA darslik.pdf.png"
+    },
+    {
+      "title": "20.10.25 STATISTIKA PRAKTIKUM",
+      "fileName": "20.10.25 STATISTIKA PRAKTIKUM.pdf",
+      "image": "darsliklar/20.10.25 STATISTIKA PRAKTIKUM.pdf.png"
+    },
+    {
+      "title": "Ekonometrika o'quv qo'llanma",
+      "fileName": "Ekonometrika o'quv qo'llanma.pdf",
+      "image": "darsliklar/Ekonometrika o'quv qo'llanma.pdf.png"
+    },
+    {
+      "title": "Ekonometrikaga kirish uslubiy qo’llanma",
+      "fileName": "Ekonometrikaga kirish uslubiy qo’llanma.pdf",
+      "image": "darsliklar/Ekonometrikaga kirish uslubiy qo’llanma.pdf.png"
+    },
+    {
+      "title": "O'Q.PRACTICE IN INTRODUCTION TO ECONOMETRICS",
+      "fileName": "O'Q.PRACTICE IN INTRODUCTION TO ECONOMETRICS.pdf",
+      "image": "darsliklar/O'Q.PRACTICE IN INTRODUCTION TO ECONOMETRICS.pdf.png"
+    },
+    {
+      "title": "PRACTICE IN INTRODUCTION TO ECONOMETRICS",
+      "fileName": "PRACTICE IN INTRODUCTION TO ECONOMETRICS.pdf",
+      "image": "darsliklar/PRACTICE IN INTRODUCTION TO ECONOMETRICS.pdf.png"
+    },
+    {
+      "title": "STATISTIKA_BO‘YICHA_PRAKTIKUM_++_",
+      "fileName": "STATISTIKA_BO‘YICHA_PRAKTIKUM_++_.pdf",
+      "image": "darsliklar/STATISTIKA_BO‘YICHA_PRAKTIKUM_++_.pdf.png"
+    },
+    {
+      "title": "Statistika  darslik",
+      "fileName": "Statistika  darslik.pdf",
+      "image": "darsliklar/Statistika  darslik.pdf.png"
+    },
+    {
+      "title": "Statistika darslik 2018",
+      "fileName": "Statistika darslik 2018.pdf",
+      "image": "darsliklar/Statistika darslik 2018.pdf.png"
+    },
+    {
+      "title": "Statistika praktikum",
+      "fileName": "Statistika praktikum.pdf",
+      "image": "darsliklar/Statistika praktikum.pdf.png"
+    },
+    {
+      "title": "StatistikadanTestlar to`plami",
+      "fileName": "StatistikadanTestlar to`plami.pdf",
+      "image": "darsliklar/StatistikadanTestlar to`plami.pdf.png"
+    },
+    {
+      "title": "ekonomet praktikum",
+      "fileName": "ekonomet praktikum.pdf",
+      "image": "darsliklar/ekonomet praktikum.pdf.png"
+    },
+    {
+      "title": "ekonometrika praktikum lotin.",
+      "fileName": "ekonometrika praktikum lotin..pdf",
+      "image": "darsliklar/ekonometrika praktikum lotin..pdf.png"
+    },
+    {
+      "title": "МЕТОДИЧЕСКОЕ_ПОСОБИЕ_РУСЧА++",
+      "fileName": "МЕТОДИЧЕСКОЕ_ПОСОБИЕ_РУСЧА++.pdf",
+      "image": "darsliklar/МЕТОДИЧЕСКОЕ_ПОСОБИЕ_РУСЧА++.pdf.png"
+    },
+    {
+      "title": "СТАТИСТИКА_учебное_пособие практикум",
+      "fileName": "СТАТИСТИКА_учебное_пособие практикум.pdf",
+      "image": "darsliklar/СТАТИСТИКА_учебное_пособие практикум.pdf.png"
+    },
+    {
+      "title": "Учебно-метод пособие 2 част СТАТ2017",
+      "fileName": "Учебно-метод пособие 2 част СТАТ2017.pdf",
+      "image": "darsliklar/Учебно-метод пособие 2 част СТАТ2017.pdf.png"
+    },
+    {
+      "title": "Учебно-метод пособие I -чaст СТАТ2017",
+      "fileName": "Учебно-метод пособие I -чaст СТАТ2017.pdf",
+      "image": "darsliklar/Учебно-метод пособие I -чaст СТАТ2017.pdf.png"
+    },
+    {
+      "title": "ЭКОНОМЕТРИК darslik 2026 M",
+      "fileName": "ЭКОНОМЕТРИК darslik 2026 M.pdf",
+      "image": "darsliklar/ЭКОНОМЕТРИК darslik 2026 M.pdf.png"
+    },
+    {
+      "title": "ЭКОНОМЕТРИКА АСОСЛАРИ 2021 lotin",
+      "fileName": "ЭКОНОМЕТРИКА АСОСЛАРИ 2021 lotin.pdf",
+      "image": "darsliklar/ЭКОНОМЕТРИКА АСОСЛАРИ 2021 lotin.pdf.png"
+    },
+    {
+      "title": "ЭКОНОМЕТРИКА АСОСЛАРИ электрон",
+      "fileName": "ЭКОНОМЕТРИКА АСОСЛАРИ электрон .pdf",
+      "image": "darsliklar/ЭКОНОМЕТРИКА АСОСЛАРИ электрон .pdf.png"
+    },
+    {
+      "title": "ЭКОНОМЕТРИКА АСОСЛАРИ",
+      "fileName": "ЭКОНОМЕТРИКА АСОСЛАРИ.pdf",
+      "image": "darsliklar/ЭКОНОМЕТРИКА АСОСЛАРИ.pdf.png"
+    },
+    {
+      "title": "ЭКОНОМЕТРИКА дарслик",
+      "fileName": "ЭКОНОМЕТРИКА дарслик  .pdf",
+      "image": "darsliklar/ЭКОНОМЕТРИКА дарслик  .pdf.png"
+    },
+    {
+      "title": "ЭКОНОМЕТРИКА учебное пособие(202 бет)",
+      "fileName": "ЭКОНОМЕТРИКА учебное пособие(202 бет).pdf",
+      "image": "darsliklar/ЭКОНОМЕТРИКА учебное пособие(202 бет).pdf.png"
+    },
+    {
+      "title": "ЭКОНОМЕТРИКА электрон дарслик 2021",
+      "fileName": "ЭКОНОМЕТРИКА электрон дарслик 2021.exe",
+      "image": ""
+    },
+    {
+      "title": "ЭКОНОМЕТРИКА_2_дарслик",
+      "fileName": "ЭКОНОМЕТРИКА_2_дарслик.pdf",
+      "image": "darsliklar/ЭКОНОМЕТРИКА_2_дарслик.pdf.png"
+    },
+    {
+      "title": "Эконометрика для практич Учебно-мет пос",
+      "fileName": "Эконометрика для практич Учебно-мет пос.pdf",
+      "image": "darsliklar/Эконометрика для практич Учебно-мет пос.pdf.png"
+    },
+    {
+      "title": "Эконометрика учебное пособие рус 22",
+      "fileName": "Эконометрика учебное пособие рус 22.pdf",
+      "image": "darsliklar/Эконометрика учебное пособие рус 22.pdf.png"
+    },
+    {
+      "title": "Эконометрика_асослари_2022",
+      "fileName": "Эконометрика_асослари_2022.pdf",
+      "image": "darsliklar/Эконометрика_асослари_2022.pdf.png"
+    },
+    {
+      "title": "Эконометрика_электрон_ўқув_қўлланма_",
+      "fileName": "Эконометрика_электрон_ўқув_қўлланма_.pdf",
+      "image": "darsliklar/Эконометрика_электрон_ўқув_қўлланма_.pdf.png"
+    },
+    {
+      "title": "статистика метод пос",
+      "fileName": "статистика метод пос.pdf",
+      "image": "darsliklar/статистика метод пос.pdf.png"
+    },
+    {
+      "title": "статистика2",
+      "fileName": "статистика2.pdf",
+      "image": "darsliklar/статистика2.pdf.png"
+    }
+  ]
+}

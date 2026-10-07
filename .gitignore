@@ -1,0 +1,7 @@
+# Ignore temporary scratch files and system artifacts
+assets_generated/
+*.tmp
+.DS_Store
+*.log
+ilmiy_ishlar_full.txt
+parsed_scientific_works.json
